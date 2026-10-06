@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismael Calero García | Desarrollador Web Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header>
+        <div class="logo">Ismael Calero</div>
+        <nav>
+            <a href="#perfil">Perfil</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto" class="btn-nav">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN INICIO / HERO -->
+    <section id="hero">
+        <div class="hero-content">
+            <span class="badge">👋 Bienvenido a mi portafolio</span>
+            <h1>Ismael Calero García</h1>
+            <h2>Desarrollador Web Junior | Base de Datos Web | Técnico en Redes</h2>
+            <p>La Tigra, San Carlos | Tel: 8384 0183</p>
+            <div class="hero-botones">
+                <a href="#proyectos" class="btn primary">Ver Proyectos</a>
+                <a href="mailto:ismael98cg@gmail.com" class="btn secondary">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PERFIL PROFESIONAL -->
+    <section id="perfil" class="container">
+        <h2 class="section-title">Perfil Profesional</h2>
+        <div class="profile-grid">
+            <div class="profile-text">
+                <p>• Programador web junior, programador en Bases de Datos Web formado en el <strong>Instituto Nacional de Aprendizaje (INA)</strong> (2025-2026).</p>
+                <p>• Base técnica previa sólida en redes de computadoras con certificación CCNA (CCNA 1, 2 y 3) por la Universidad Castro Carazo (2023).</p>
+                <p>• Enfoque en el desarrollo de aplicaciones web interactivas y sistemas robustos de gestión de datos.</p>
+                <p>• Experiencia práctica comprobada en la creación y despliegue en producción de sistemas de pedidos reales.</p>
+                <p>• Sólido dominio en el diseño de bases de datos tanto relacionales como NoSQL (SQL Server y MongoDB).</p>
+            </div>
+            <div class="education-card">
+                <h3>🎓 Educación y Formación</h3>
+                <div class="edu-item">
+                    <h4>Programación Web y Base de Datos</h4>
+                    <p>Instituto Nacional de Aprendizaje (INA) | 2025-2026</p>
+                </div>
+                <div class="edu-item">
+                    <h4>Técnico en Redes y CCNA (1, 2 y 3)</h4>
+                    <p>Universidad Castro Carazo | 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES TÉCNICAS -->
+    <section id="habilidades" class="container">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend & Web</h3>
+                <ul>
+                    <li>HTML / CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <i class="fa-solid fa-database"></i>
+                <h3>Backend & Base de Datos</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>SQL Server (SQL)</li>
+                    <li>MongoDB (NoSQL)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Redes e Infraestructura</h3>
+                <ul>
+                    <li>Fundamentos de Redes</li>
+                    <li>Enrutamiento</li>
+                    <li>CCNA 1, 2 y 3</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos" class="container">
+        <h2 class="section-title">Proyectos Web y Sistemas Destacados</h2>
+        <div class="projects-grid">
+            
+            <!-- Proyecto 1: Plataforma Web de Pedidos -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Plataforma Web de Pedidos e Interacción</h3>
+                    <p>Sistemas desplegados en producción orientados a la gestión de pedidos, interacción de usuarios y lógica frontend.</p>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>Frontend</span>
+                        <span>Despliegue</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://pollospako2026.web.app/" target="_blank"><i class="fa-solid fa-globe"></i> Demo 1</a>
+                        <a href="https://codepollo-del-caribe-srl.netlify.app" target="_blank"><i class="fa-solid fa-globe"></i> Demo 2</a>
+                        <a href="https://pollos-3m.netlify.app" target="_blank"><i class="fa-solid fa-globe"></i> Demo 3</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 2: CRUD SQL Server -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Sistema de Gestión de Departamentos</h3>
+                    <p>Sistema CRUD desarrollado sobre base de datos relacional utilizando SQL Server para la administración eficiente de información.</p>
+                    <div class="tags">
+                        <span>SQL Server</span>
+                        <span>SQL</span>
+                        <span>Backend/CRUD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ismaelgit98/CRUD-SQL-Server-Departamentos" target="_blank"><i class="fa-brands fa-github"></i> Ver Repositorio</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 3: CRUD MongoDB -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Sistema de Gestión de Empleados</h3>
+                    <p>Aplicación orientada a la gestión de datos utilizando tecnologías NoSQL basadas en documentos con MongoDB.</p>
+                    <div class="tags">
+                        <span>MongoDB</span>
+                        <span>NoSQL</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Ismaelgit98/CRUD-MongoDB-Empleados" target="_blank"><i class="fa-brands fa-github"></i> Ver Repositorio</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-box">
+            <p>¿Interesado en mi perfil como desarrollador web, bases de datos y técnico en redes? ¡Escríbeme directamente!</p>
+            <div class="contact-links">
+                <a href="mailto:ismael98cg@gmail.com" class="contact-btn"><i class="fa-solid fa-envelope"></i> ismael98cg@gmail.com</a>
+                <a href="tel:83840183" class="contact-btn"><i class="fa-solid fa-phone"></i> 8384 0183</a>
+                <a href="https://github.com/Ismaelgit98" target="_blank" class="contact-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 Ismael Calero García. Desarrollador Web Junior | La Tigra, San Carlos.</p>
+    </footer>
+
+</body>
+</html>
